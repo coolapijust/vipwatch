@@ -23,10 +23,10 @@
   </SCRIPT>
   <title>    VIP视频解析    </title>
 </head>
-<body onload="onload()" bgcolor=#0000FF>
-<table  width="100%" align="center" height="100%" border="0" cellpadding="0" cellspacing="0">
+<body onload="onload()" bgcolor=#87CEEB>
+<table  width="50%" align="center" height="50%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-        <td height="9">
+        <td height="4">
                 <form method="post" action="">
                 <select name="jk" id="jk" size=1 onchange="fnChange()">
                         <option value="http://api.baiyug.cn/vip/index.php?url=" selected>超清</option>
@@ -113,12 +113,12 @@
                 <input type="text" name="vipurl" id="vipurl" size=88 value="http://v.youku.com/v_show/id_XMzA4MjMyOTA1Ng==.html">
                 <input type="button" value="播放" onclick="onPlay()">
                 <input type="button" value="清除" onclick="onClear()">
-                <textarea rows="1" cols="80" readonly>把需要播放的VIP视频链接粘贴到左侧的输入框中，然后点击播放即可(尽量使用靠前的线路) </textarea>
+                <textarea rows="1" cols="80" readonly>视频链接粘贴到输入框中，然后点击播放 </textarea>
          </form>
         </td>
 </tr>
 <tr>
-        <td><iframe src="" name="play" id="play" width="100%" align="center" height="100%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></td>
+        <td><iframe src="" name="play" id="play" width="50%" align="center" height="50%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></td>
 </tr>
 </table>
 </body>
